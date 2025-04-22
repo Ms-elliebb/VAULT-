@@ -1,6 +1,6 @@
-# 🕸️ FITZGERALD — Personal Management Panel
+# 🕸️ VAULT- — Personal Management Panel
 
-Fitzgerald is designed to help you manage your daily life, projects, and mental world from a single place. Everything is organized in a simple, deep, and dark interface.
+VAULT- is designed to help you manage your daily life, projects, and mental world from a single place. Everything is organized in a simple, deep, and dark interface.
 
 ## Features
 
