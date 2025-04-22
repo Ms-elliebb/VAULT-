@@ -73,7 +73,7 @@ const Navbar = () => {
     >
       {/* Başlık */}
       <Link href="/" className="text-2xl font-bold mb-10 transition-colors flex-shrink-0 [text-shadow:0_1px_2px_rgba(0,0,0,0.5)]">
-        FITZGERALD
+        VAULT-
       </Link>
 
       {/* Ana Navigasyon Linkleri ve Dinamik Apps Manager */}
