@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "tailwindcss"; kaldırılabilir veya kalabilir, ama yukarıdakiler gerekli */
+
+:root {
+  /* HSL formatı: hue saturation lightness (derece olmadan) */
+  --background: 222 47% 11%; /* approx #111827 Tailwind Gray 900 (adjusted darkness) */
+  --foreground: 210 40% 98%; /* approx #F9FAFB Tailwind Gray 50 */
+
+  --primary: 220 80% 56%;  /* approx #2563EB Tailwind Blue 600 (darker for better contrast) */
+  --primary-foreground: 0 0% 100%; /* approx #FFFFFF White */
+
+  --secondary: 220 26% 25%; /* approx #374151 Tailwind Gray 700 */
+  --secondary-foreground: 215 20% 65%; /* approx #D1D5DB Tailwind Gray 300 */
+
+  --muted: 220 17% 35%; /* approx #4B5563 Tailwind Gray 600 */
+  --muted-foreground: 210 17% 93%; /* approx #E5E7EB Tailwind Gray 200 (lighter for better contrast) */
+
+  --accent: 215 81% 70%; /* approx #60A5FA Tailwind Blue 400 */
+  --accent-foreground: 222 47% 11%; /* approx #111827 Tailwind Gray 900 */
+
+  --destructive: 0 72% 51%; /* approx #DC2626 Tailwind Red 600 (darker for better contrast) */
+  --destructive-foreground: 0 0% 100%; /* approx #FFFFFF White */
+
+  --success: 158 79% 43%; /* approx #10B981 Tailwind Emerald 500 */
+  --success-foreground: 222 47% 11%; /* approx #111827 Tailwind Gray 900 (dark for better contrast) */
+
+  --warning: 39 92% 53%; /* approx #F59E0B Tailwind Amber 500 */
+  --warning-foreground: 222 47% 11%; /* approx #111827 Tailwind Gray 900 (dark for better contrast) */
+
+  --border: 215 28% 17%; /* approx #2A3547 - Keeping a similar darkness */
+  --input: 215 28% 17%; /* approx #2A3547 */
+  --ring: 220 80% 56%; /* approx #2563EB Tailwind Blue 600 (match primary) */
+}
+
+/* Koyu mod @media kaldırıldı, tek bir tema kullanıyoruz şimdilik */
+
+body {
+  background: linear-gradient(180deg, #33289E 0%, rgba(117, 13, 119, 0.97) 100%); /* Apply the new gradient background */
+  color: hsl(var(--foreground)); /* HSL kullan */
+}
